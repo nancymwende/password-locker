@@ -46,6 +46,6 @@ def generate_password(length = 6, password = string.hexdigits):
         function to generate a random password
         '''
         generated_password = ''.join(random.choice(password) for i in range(length))
-        return generated_password
+        return generate_password
 
 
