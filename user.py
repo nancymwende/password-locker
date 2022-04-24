@@ -24,7 +24,7 @@ class User:
 
     def delete_user(self):
          '''
-        
+        method deletes a saved user from the user list.
          '''
          User.User_list.remove(self)
 
