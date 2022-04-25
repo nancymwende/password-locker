@@ -39,7 +39,7 @@ def check_existing_user(first_name):
     '''
     method that checks if a user exists from the user list.
     '''
-    return User.user_exists(
+    return User.user_exists(first_name)
 
 def create_user_info(media, user_details, password):
     '''
