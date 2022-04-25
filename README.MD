@@ -21,7 +21,7 @@ The user can;
 <li>Open the terminal(Ctrl+Alt+T)</li>
 <li>Git clone a=hrefhttps://github.com/nancymwende/password-locker</li>
 
-## Technologies used
+## Technologies Used
 <li>Python3.8</li>
 
 ## Known Bugs
