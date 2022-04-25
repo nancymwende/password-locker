@@ -12,10 +12,10 @@ by
 ## User
 The user can;
 
-<li>To create an account for the application or log into the application.</li>
+<li> create an account for the application or log into the application.</li>
 <li>Store my existing acounts login details for various accounts that I have registered for.</li>
 <li>Generate new password for an account that I haven't registered for and store it with the account name.</li>
-<li>Delete stored account login details that I do not want anymore.</li>
+<li>Delete stored account login details that he/she want anymore.</li>
 
 ## Setup installations
 <li>Open the terminal(Ctrl+Alt+T)</li>
