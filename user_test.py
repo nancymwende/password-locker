@@ -52,19 +52,8 @@ class TestUser(unittest.TestCase):
          test_user = User("Catherine","kimani","00345678",) # new user
          test_user.save_user()
          self.assertEqual(len(User.User_list),2)
-
-    # setup and class creation up here
     
-# other test cases here
-     def test_save_multiple_user(self):
-            '''
-            test_save_multiple_contact to check if we can save multiple contact
-            objects to our user_list
-            '''
-            self.new_user.save_user()
-            test_user = User("nancy","mwende","1234567",) # new user
-            test_user.save_user()
-            self.assertEqual(len(User.User_list),2)
+
 
      def test_delete_user(self):
              '''
@@ -84,7 +73,7 @@ class TestUser(unittest.TestCase):
         '''
 
         self.new_user.save_user()
-        test_user = User("Cate","kimani","234567",) # new contact
+        test_user = User("Cate","kimani","234567",) # new user
         test_user.save_user()
 
         found_user = User.find_by_first_name("Cate")

@@ -14,11 +14,11 @@ def create_user(first_name, last_name, password):
     new_user = User(first_name, last_name, password)
     return new_user
 
-def save_user(contact):
+def save_user(user):
     '''
     Function to save user
     '''
-    User.save_user()
+    User.save_user(user)
 
     
 
@@ -76,13 +76,13 @@ def generated_password():
     return random_password
 
 def main():
-    print("Hello..Welcome to password locker.what is your name kindly?")
+    print("Hello....Welcome to password locker...what is your name kindly?")
     first_name = input()
     print(f"Hey {first_name}. what would you like to do?")
     print('\n')
 
     while True:
-         print("Use these short codes : \n cr - Create an account \n ds -Display available users \n lg -Login to your account \n ex - Exit password locker")
+         print("Use these short codes : \n cr - Create an account \n lg -Login to your account \n ds -Display available users \n ex - Exit password locker")
          print("\n")
 
          option = input()
@@ -117,10 +117,10 @@ def main():
                     print(f"first_name: {user.first_name}")
                     print(f"password: {user.password}")
 
-         else:
-                print("\n")
-                print("No users at all!")
-                print("\n")
+        #  else:
+        #         print("\n")
+        #         print("No users at all!")
+        #         print("\n")
 
          if option == 'lg':
             print("~" * 15)
@@ -206,12 +206,9 @@ def main():
                         else:
                             print("No information for the given username")
 
-                    elif option == 3:
-                        break
-
-            else:
-                print("Oooops....we can't find this user.You can try again")
-
+         elif option == 'ex':
+             print("Exit password locker:")
+             break
 
 
 

@@ -31,7 +31,7 @@ class User:
     @classmethod
     def find_by_first_name(cls,first_name):
         '''
-        Method that takes in a number and returns a contact that matches that number.
+        Method that takes in firstname and returns a contact that matches that number.
 
         Args:
             number: Phone number to search for
